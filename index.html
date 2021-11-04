@@ -12,19 +12,19 @@
   <div class="container">
     <div class="jumbotron mt-4">
       <h1>Programming Language Selector</h1>
-      <p>Here are three programming languages that might be up your alley. Please fill out the questionaire below, and we'll suggest you a good one!</p>
+      <p>Here are three programming languages that might be up your alley. Please fill out the questionaire below and we'll suggest you a good one!</p>
     </div>
     <div class="questions">
       <h1>Which learning environment do you prefer?</h1>
       <select class="form-control" id="environment">
-        <option value="1">A Quit Library</option>
-        <option value="2">A Coffee Shop</option>
-        <option value="3">A Moshpit at a Concert</option>
+        <option value="1">A quit library</option>
+        <option value="2">A somewhat busy coffee shop</option>
+        <option value="3">A moshpit at a concert</option>
       </select>
 
       <h1>When I say jump, you say?</h1>
       <select class="form-control" id="comply">
-        <option value="1">How High?</option>
+        <option value="1">How high?</option>
         <option value="2">Why?</option>
         <option value="3">After you!</option>
       </select>
@@ -46,14 +46,13 @@
       <h1>What is your preferred way to vacation?</h1>
       <select class="form-control" id="vacation">
         <option value="1">Befriending a local</option>
-        <option value="2">Spend the day at the beach and spa</option>
+        <option value="2">Spending the day at the beach and spa</option>
         <option value="3">Bus tours</option>
       </select>
-
-
+      <button type="submit" class="btn">Show my language!</button>
+    </div>
+    <div id="result">
+      <p>Based on your answers, I recommend you consider <span id="language-suggested"></span>... Woweee!</p>
     </div>
   </div>
-
-
-
 </body>
