@@ -6,12 +6,14 @@ body{
 
 #result {
   display:none;
+  font-size:larger;
+  color:white;
 }
 
 .btn {
   display:block;
   margin-top:5%;
-  margin-bottom:10%;
+  margin-bottom:1%;
   color:azure;
 }
 h1 {

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#questions").submit(function(event) {
+  $("form#questions").submit(function(event) {
     event.preventDefault();
     const quest1 = parseInt($("#environment").val());
     const quest2 = parseInt($("#comply").val());
