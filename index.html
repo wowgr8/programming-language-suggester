@@ -13,7 +13,7 @@
       <h1>Programming Language Selector</h1>
       <p>Here are three programming languages that might be up your alley. Please fill out the questionaire below and we'll suggest you a good one!</p>
     </div>
-    <div id="questions">
+    <form id="questions">
       <h1>Which learning environment do you prefer?</h1>
       <select class="form-control" id="environment">
         <option value="1">A quiet library</option>
@@ -48,9 +48,11 @@
         <option value="2">Spending the day at the beach and spa</option>
         <option value="3">Bus tours</option>
       </select>
-    </div>
 
-    <button type="submit" class="btn">Show my language!</button>
+      <button type="submit" class="btn">Show my language!</button>
+    </form>
+
+    
 
     <div id="result">
       <p>Based on your answers, I recommend you consider <span id="language-suggested"></span>... Woweee!</p>
