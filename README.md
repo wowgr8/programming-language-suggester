@@ -11,9 +11,10 @@ _By Cesar Lopez_
 
 ## Description ##
 
-This site will ask you five questions and you will return one out of three possible programming languages based on your answers!
+This site will ask you five questions and will return one out of three possible programming languages based on your answers!
 
 ### Set up/Installation Guide ###
+
 
 
 ### Known Bugs ###
