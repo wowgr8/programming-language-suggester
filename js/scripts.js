@@ -11,14 +11,15 @@ $(document).ready(function() {
     if(total >= 5) {
       let resultVal = "Python";
       $("#language-suggested").text(resultVal);
-      } else if (total <= 6 && total >= 10) {
-        let resultVal = "Swift";
-        $("#language-suggested").text(resultVal);
-      } else {
-        let resultVal = "Ruby";
-        $("#language-suggested").text(resultVal);
-      }
+    } else if (total <= 6 && total >= 10) {
+      let resultVal = "Swift";
+      $("#language-suggested").text(resultVal);
+    } else {
+      let resultVal = "Ruby";
+      $("#language-suggested").text(resultVal);
+    }
       $("#result").show();
+    
   });
 });
 
