@@ -5,9 +5,9 @@ body{
 }
 
 #result {
-  display:none;
   font-size:larger;
   color:white;
+  display:none;
 }
 
 .btn {
@@ -42,4 +42,7 @@ h1 {
   margin-bottom:5%;
 }
 
-
+/* #paragraph { 
+  color:blueviolet;
+  display:none;
+} */
