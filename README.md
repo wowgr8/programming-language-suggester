@@ -15,7 +15,10 @@ This site will ask you five questions and will return one out of three possible 
 
 ### Set up/Installation Guide ###
 
-
+Copy this link and paste it into your terminal, then hit enter.
+...
+https://www.github.com/wowgr8/programming-language-selector
+...
 
 ### Known Bugs ###
 
