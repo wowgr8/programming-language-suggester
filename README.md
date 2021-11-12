@@ -15,10 +15,12 @@ This site will ask you five questions and will return one out of three possible 
 
 ### Set up/Installation Guide ###
 
-Copy this link and paste it into your terminal, then hit enter.
-...
-https://www.github.com/wowgr8/programming-language-selector
-...
+1. Copy this link.
+    ...
+    https://www.github.com/wowgr8/programming-language-selector
+    ...
+2. In your terminal, type in: _git clone_ followed by the link above.
+3. Hit enter.
 
 ### Known Bugs ###
 
